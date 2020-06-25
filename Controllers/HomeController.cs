@@ -23,9 +23,9 @@ namespace OrganizeInvest.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public ViewResult Carteira()
         {
-            return View();
+            return View("Carteira");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
